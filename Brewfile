@@ -31,6 +31,7 @@ brew "exa"
 brew "fd"
 brew "the_silver_searcher"
 brew "ripgrep"
+brew "diff-so-fancy"
 brew "peco"
 brew "fzf"
 brew "fswatch"
@@ -84,13 +85,13 @@ brew "pyenv"
 brew "pipx"
 brew "rbenv"
 brew "nvm"
-brew "yarn", args: ["ignore-dependencies"]
+brew "yarn"
 brew "jq"
 brew "pup"
 
 # Clouds
 brew "awscli"
-brew "google-cloud-sdk"
+cask "google-cloud-sdk"
 brew "scw"
 
 # Utilities
@@ -113,8 +114,8 @@ cask "atom"
 
 # Applications
 cask "google-chrome"
-cask "virtualbox"
-cask "virtualbox-extension-pack"
+# cask "virtualbox"
+# cask "virtualbox-extension-pack"
 cask "keybase"
 cask "notion"
 cask "vlc"
@@ -130,7 +131,7 @@ cask "vlc"
 
 # macOS specific tools
 cask "alfred"
-cask "divvy"
+mas "Divvy", id: 413857545
 cask "scroll-reverser"
 cask "cheatsheet"
 
