@@ -102,6 +102,8 @@ brew "gopass"
 brew "direnv"
 brew "desk"
 brew "starship"
+brew "ranger"
+brew "rclone"
 brew "asciinema"
 
 # Editors & IDEs
