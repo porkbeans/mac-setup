@@ -123,13 +123,14 @@ cask "notion"
 cask "vlc"
 
 # Fonts
-# noto
-# fira
-# dejavu
-# hack
-# source code pro
-# inconsolata
-# nerdfonts
+cask "font-noto-nerd-font"
+cask "font-fira-code-nerd-font"
+cask "font-fira-mono-nerd-font"
+cask "font-dejavusansmono-nerd-font"
+cask "font-hack-nerd-font"
+cask "font-saucecodepro-nerd-font"
+cask "font-inconsolata-nerd-font"
+cask "font-twitter-color-emoji"
 
 # macOS specific tools
 cask "alfred"
